@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:id="@+id/cantVehiculos"
+        android:text="DATOS VEHICULO"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TIPO"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/textView6" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup_tipo">
+                <RadioButton
+                    android:id="@+id/radioParticular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Liviano"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Motocicleta"
+                    android:textColor="@color/colorWhite"
+                    android:id="@+id/radioMoto"
+                    android:checked="false" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bicicleta"
+                    android:textColor="@color/colorWhite"
+                    android:id="@+id/radioBici"
+                    android:checked="false" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Otro"
+                    android:textColor="@color/colorWhite"
+                    android:id="@+id/radioTipoOtro"
+                    android:checked="false" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="MATRICULA"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/textView8" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup_matricula">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Neiva"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_Neiva" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Otro"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radioMatOtro" />
+            </RadioGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PARQUEADERO"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/textView9" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup_parqueo">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="En Vivienda"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_vivienda" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Publico"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_publico" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sobre la Via"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_envia" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="PROPIEDAD"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/textView7" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup_propiedad">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Propio"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_propio" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Empresa"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_empresa" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Taxi"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_taxi" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Otro"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_PropOtro" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gobierno/Ofi"
+                    android:checked="false"
+                    android:textColor="@color/colorWhite"
+                    android:id="@+id/radio_gobierno" />
+            </RadioGroup>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="404dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="COMBUSTIBLE"
+                android:textColor="@color/colorWhite"
+                />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup_combustible">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gasolina"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_gasolina" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Disel"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_disel" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gas Natural"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_gas" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Electrico"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_electrico" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hibrido"
+                    android:checked="false"
+                    android:textColor="@color/colorWhite"
+                    android:id="@+id/radio_hibrido" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Otro"
+                    android:checked="false"
+                    android:textColor="@color/colorWhite"
+                    android:id="@+id/radio_otroCombustible" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="CILINDRAJE"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/textView11" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioGroup_cilindraje" >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hasta 1000cc"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_hasta1000" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="De 1000cc a 1600cc"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_de1000" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="De 1600cc a 2000cc"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_de1600" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mayor de 2000cc"
+                    android:textColor="@color/colorWhite"
+                    android:checked="false"
+                    android:id="@+id/radio_mayorde2000" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+         />
+
+</LinearLayout>

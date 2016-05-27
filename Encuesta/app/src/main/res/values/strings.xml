@@ -1,0 +1,401 @@
+<resources>
+    <string name="app_name">Encuesta V0.3</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_familias">Familias</string>
+    <string name="title_activity_integrante_familia">Integrante Familia</string>
+    <string name="title_activity_maps_activity_direccion">Buscar Direccion</string>
+    <string name="title_activity_viajes_tipicos">Viajes Típicos</string>
+    <string name="text_gps_disabled">Para utilizar esta aplicación es necesario que el GPS este encendido. Desea activar el GPS?</string>
+
+
+    <string-array name="Estrato">
+        <item>SELECCIONE</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="Total_Familias">
+        <item>SELECCIONE</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="Numero_Residentes">
+        <item>SELECCIONE</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="Cantidad_Vehiculos">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>Ninguno</item>
+    </string-array>
+    <string-array name="Edad">
+        <item>Seleccione</item>
+        <item>Menor de 5 años</item>
+        <item>De 6 a 10 años</item>
+        <item>De 11 a 15 años</item>
+        <item>De 16 a 20 años</item>
+        <item>De 21 a 25 años</item>
+        <item>De 26 a 30 años</item>
+        <item>De 31 a 35 años</item>
+        <item>De 36 a 40 años</item>
+        <item>De 41 a 45 años</item>
+        <item>De 46 a 50 años</item>
+        <item>De 51 a 55 años</item>
+        <item>De 56 a 60 años</item>
+        <item>De 61 a 65 años</item>
+        <item>Mayor de 65 años</item>
+    </string-array>
+
+    <string-array name="Nivel_Estudio">
+        <item>Seleccione</item>
+        <item>Ninguno</item>
+        <item>Primaria(5to grado)</item>
+        <item>Secundaria(Bachiller)</item>
+        <item>Técnica</item>
+        <item>Universitaria</item>
+        <item>Postgrado</item>
+        <item>No Responde</item>
+    </string-array>
+
+
+    <string-array name="Situacion_Profesional">
+        <item>Seleccione</item>
+        <item>Ama de Casa</item>
+        <item>Desempleado</item>
+        <item>Pensionado</item>
+        <item>Estudia</item>
+        <item>Trabaja (fijo)</item>
+        <item>Trabaja (temporal)</item>
+        <item>Trabaja (eventual)</item>
+        <item>No Responde</item>
+    </string-array>
+
+    <string-array name="Sector_Economico">
+        <item>Seleccione</item>
+        <item>Agricultura</item>
+        <item>Industria/Fábrica</item>
+        <item>Oficina</item>
+        <item>Construcción</item>
+        <item>Comercio</item>
+        <item>Servicios</item>
+        <item>Admon Publica</item>
+        <item>Defensa</item>
+        <item>Servicio Social</item>
+        <item>Sanidad</item>
+        <item>Educacion</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="Proposito">
+        <item>Seleccione</item>
+        <item>Trabajo</item>
+        <item>Estudio</item>
+        <item>Compras</item>
+        <item>Asuntos Personales</item>
+        <item>Medico</item>
+        <item>Ocio</item>
+        <item>Regreso al Hogar</item>
+        <item>Otros</item>
+    </string-array>
+
+    <string-array name="Modo">
+        <item>Seleccione</item>
+        <item>A PIE</item>
+        <item>BICICLETA</item>
+        <item>TAXI</item>
+        <item>AUTOMOVIL(Conductor)</item>
+        <item>AUTOMOVIL(Pasajero)</item>
+        <item>MOTOCICLETA</item>
+        <item>MOTOCICLETA(Pasajero)</item>
+        <item>MOTOTAXI</item>
+        <item>BUS/COLECTIVO</item>
+        <item>EMPRESA/COLEGIO</item>
+        <item>INTERURBANO</item>
+        <item>UBER</item>
+    </string-array>
+
+    <string-array name="Camino_Destino_metros">
+        <item>Menor e Igual a 100mts</item>
+        <item>Mayor a 100mts</item>
+    </string-array>
+
+    <string-array name="Camino_Destino_minutos">
+        <item>Menor e Igual a 5 min</item>
+        <item>Mayor a 5 min</item>
+    </string-array>
+
+    <string-array name="Parqueo">
+        <item>Seleccione</item>
+        <item>En Vivienda</item>
+        <item>En otra Vivienda</item>
+        <item>Público</item>
+        <item>Sobre la Vía</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="Costo_Viaje">
+        <item>Seleccione</item>
+        <item>Menos de $1000</item>
+        <item>de $1000 a $2000</item>
+        <item>de $2000 a $5000</item>
+        <item>de $5000 a $10000</item>
+        <item>de $10000 a $20000</item>
+        <item>Mas de $20000</item>
+    </string-array>
+
+
+    <string-array name="Tipo_Vehiculo">
+        <item>Seleccione</item>
+        <item>Liviano</item>
+        <item>Motocicleta</item>
+        <item>Bicicleta</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="Matricula_Vehiculo">
+        <item>Seleccione</item>
+        <item>Neiva</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="Propiedad_Vehiculo">
+        <item>Seleccione</item>
+        <item>Propio</item>
+        <item>Empresa</item>
+        <item>Taxi</item>
+        <item>Gobierno/Oficial</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="Cilindraje">
+        <item>Seleccione</item>
+        <item>Hasta 1000cc</item>
+        <item>De 1000cc a 1600cc</item>
+        <item>De 1600cc a 2000cc</item>
+        <item>Mayor de 2000cc</item>
+    </string-array>
+
+    <string-array name="Cilindraje_Moto">
+        <item>Seleccione</item>
+        <item>Hasta 100cc</item>
+        <item>De 100cc a 150cc</item>
+        <item>De 150cc a 250cc</item>
+        <item>Mayor de 250cc</item>
+    </string-array>
+
+    <string-array name="Combustible">
+        <item>Seleccione</item>
+        <item>Gasolina</item>
+        <item>Disel</item>
+        <item>Gas Natural</item>
+        <item>Electrico</item>
+        <item>Hibrido</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="Ciudades">
+        <item>Neiva</item>
+        <item>Bogota</item>
+        <item>Medellin</item>
+        <item>Cali</item>
+    </string-array>
+
+    <string-array name="Localidad_Neiva">
+        <item>SELECCIONE</item>
+        <item>NOROCCIDENTAL</item>
+        <item>NORORIENTAL</item>
+        <item>ENTRE RIOS</item>
+        <item>CENTRAL</item>
+        <item>ORIENTAL</item>
+        <item>SUR</item>
+        <item>CENTRO ORIENTAL</item>
+        <item>SUR ORIENTAL</item>
+        <item>NORTE</item>
+        <item>LAS PALMAS</item>
+    </string-array>
+
+    <string-array name="Noroccidental">
+        <item>SELECCIONE</item>
+        <item>ACRÓPOLIS</item>
+        <item>CALAMARÍ</item>
+        <item>CAMILO TORRES</item>
+        <item>CÁNDIDO LEGUIZAMO</item>
+        <item>CARLOS PIZARRO LEÓN GOMEZ</item>
+        <item>CHICALÁ</item>
+        <item>CIUDADELA COMFAMILIAR</item>
+        <item>COLMENAR</item>
+        <item>EL TRIÁNGULO</item>
+        <item>LA INMACULADA</item>
+        <item>LA RIVIERA</item>
+        <item>LAS MERCEDES</item>
+        <item>LOS ANDAQUÍES</item>
+        <item>MANSIONES DEL NORTE</item>
+        <item>MIRA RÍO</item>
+        <item>RODRIGO LARA BONILLA</item>
+        <item>SANTA INÉS</item>
+        <item>VILLA DEL RÍO</item>
+        <item>VILLA MAGDALENA</item>
+    </string-array>
+
+    <string-array name="Nororiental">
+        <item>SELECCIONE</item>
+        <item>AEROPUERTO</item>
+        <item>ALAMOS NORTE</item>
+        <item>LOS CÁMBULOS</item>
+        <item>CAMINO REAL</item>
+        <item>EL CORTIJO</item>
+        <item>EL ROSAL</item>
+        <item>GUALANDAY</item>
+        <item>LAS GRANJAS</item>
+        <item>LOS PINOS</item>
+        <item>VILLA CAROLINA</item>
+        <item>VILLA CECILIA</item>
+        <item>VILLA NUBIA</item>
+    </string-array>
+
+
+    <string-array name="Entre_Rios">
+        <item>SELECCIONE</item>
+        <item>CAMPO NUÑEZ</item>
+        <item>CARACOLÍ</item>
+        <item>CHAPINERO</item>
+        <item>EL LAGO</item>
+        <item>JOSÉ EUSTACIO RIVERA</item>
+        <item>LA TOMA</item>
+        <item>LAS DELICIAS</item>
+        <item>QUIRINAL</item>
+        <item>ROJAS TRUJILLO</item>
+        <item>SEVILLA</item>
+        <item>TENERIFE</item>
+    </string-array>
+
+    <string-array name="Central">
+        <item>SELECCIONE</item>
+        <item>ALTICO</item>
+        <item>DIEGO DE OSPINA</item>
+        <item>EL CENTRO</item>
+        <item>EL ESTADIO</item>
+        <item>LOS MÁRTIRES</item>
+        <item>LO POTROS</item>
+        <item>SAN JOSÉ</item>
+        <item>SAN PEDRO</item>
+    </string-array>
+
+    <string-array name="Oriental">
+        <item>SELECCIONE</item>
+        <item>BUGANVILES</item>
+        <item>EL JARDIN</item>
+        <item>EL VERGEL</item>
+        <item>LA COLINA</item>
+        <item>KENNEDY</item>
+        <item>LA COLINA</item>
+        <item>LA LIBERTAD</item>
+        <item>LOS GUADUALES</item>
+        <item>MONSERRATE</item>
+        <item>PRIMERO DE MAYO</item>
+        <item>SIETE DE AGOSTO</item>
+        <item>VILLA CAFÉ</item>
+        <item>VILLA ROSA</item>
+    </string-array>
+
+    <string-array name="Sur">
+        <item>SELECCIONE</item>
+        <item>ANDALUCÍA</item>
+        <item>ARISMENDI MORA</item>
+        <item>BOGOTÁ</item>
+        <item>CANAIMA</item>
+        <item>EL LIMONAR</item>
+        <item>JOSÉ ANTONIO GALÁN</item>
+        <item>MANZANARES</item>
+        <item>OASIS</item>
+        <item>POZO AZUL</item>
+        <item>PUERTAS DEL SOL</item>
+        <item>SAN JORGE</item>
+        <item>SANTA ISABEL</item>
+        <item>TIMANCO</item>
+        <item>TUQUILA</item>
+    </string-array>
+
+    <string-array name="Centro_Oriental">
+        <item>SELECCIONE</item>
+        <item>LAS BRISAS</item>
+        <item>BUENA VISTA</item>
+        <item>CALIXTO LEYVA</item>
+        <item>IPANEMA</item>
+        <item>LA GAITANA</item>
+        <item>OBRERO</item>
+        <item>PRADO ALTO</item>
+        <item>SAN MARTÍN DE PORRES</item>
+        <item>VENTILADOR</item>
+    </string-array>
+
+    <string-array name="Sur_Oriental">
+        <item>SELECCIONE</item>
+        <item>ALFONSO LÓPEZ</item>
+        <item>LA FLORIDA</item>
+        <item>LAS ACACIAS</item>
+        <item>LAS AMÉRICAS</item>
+        <item>LOS PARQUES</item>
+        <item>PANORAMA</item>
+        <item>RAFAEL AZUERO</item>
+        <item>SAN CARLOS</item>
+    </string-array>
+
+    <string-array name="Norte">
+        <item>SELECCIONE</item>
+        <item>ALBERTO GALINDO</item>
+        <item>DARÍO ECHANDÍA</item>
+        <item>EDUARDO SANTOS</item>
+        <item>EL PROGRESO</item>
+        <item>LUIS CARLOS GALÁN</item>
+        <item>LUIS EDUARDO VANEGAS)</item>
+        <item>LUIS IGNACIO ANDRADE</item>
+        <item>SANTA ROSA</item>
+        <item>TERCER MILENIO</item>
+        <item>VICENTE ARAUJO</item>
+        <item>VILLA MARCELA</item>
+        <item>VIRGILIO BARCO</item>
+    </string-array>
+
+    <string-array name="Las_Palmas">
+        <item>SELECCIONE</item>
+        <item>ANTONIO NARIÑO</item>
+        <item>CIUDAD SALITRE</item>
+        <item>EL TESORO</item>
+        <item>EL TRIUNFO</item>
+        <item>ENRIQUE OLAYA HERRERA</item>
+        <item>LA RIOJA</item>
+        <item>LAS PALMAS</item>
+        <item>LOS COLORES</item>
+        <item>MISAEL PASTRANA</item>
+        <item>PABLO VI</item>
+        <item>SIGLO XXI ORIENTE</item>
+        <item>VICTOR FÉLIX</item>
+    </string-array>
+
+
+</resources>
