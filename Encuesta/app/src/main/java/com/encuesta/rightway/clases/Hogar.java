@@ -15,6 +15,7 @@ public class Hogar {
     private String Latitud;
     private String Longitud;
     private int CantidadFamilias;
+    private int Jaime,
 
 
     private int idHogar;
